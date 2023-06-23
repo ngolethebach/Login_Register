@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin:0; padding:0;
+	box-sizing: border-box;
+	outline: none; border:none;
+	text-decoration: none;
+}
+	
+.form-control {
+	min-height: 41px;
+	background: #fff;
+	box-shadow: none !important;
+	border-color: #e3e3e3;
+}
+.form-control:focus {
+	border-color: #fff;
+}
+.form-control, .btn {        
+	border-radius: 2px;
+}
+.box {
+	width: 450px;
+	margin: 0 auto;
+	padding: 100px 0 30px;		
+}
+.box form {
+	color: #7a7a7a;
+	border-radius: 2px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	background: #ececec;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;	
+	position: relative;	
+}
+.box h2 {
+	font-size: 30px;
+	margin: 35px 0 25px;
+}
+.box .avatar {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -50px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: #69C3A3;
+	padding: 15px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.box .avatar img {
+	width: 100%;
+}	
+.box input[type="checkbox"] {
+	position: relative;
+	top: 1px;
+}
+.box .btn, .box .btn:active {        
+	font-size: 20px;
+	font-weight: bold;
+	background: #69C3A3 !important;
+	border: none;
+	margin-bottom: 20px;
+}
+.box .btn:hover, .box .btn:focus {
+	background: #50b8b3 !important;
+}    
+.box a {
+	color: #7a7a7a;
+	text-decoration: underline;
+}
+.box a:hover {
+	text-decoration: none;
+}
+.box form p{
+	text-align: center;
+}
+.box form a{
+	color: #7a7a7a;
+	text-decoration: none;
+}
+.box form a:hover {
+	text-decoration: underline;
+}
+.box .bottom-action {
+	font-size: 18px;
+}
